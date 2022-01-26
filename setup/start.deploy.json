@@ -390,7 +390,7 @@
                             },
                             "properties": {
                                 "forceUpdateTag": "[parameters('baseTime')]",
-                                "azCliVersion": "2.20.0",
+                                "azCliVersion": "2.32.0",
                                 "primaryScriptUri": "[uri(parameters('_artifactsLocation'),'iot-edge-setup.sh')]",
                                 "environmentVariables": [
                                     {
