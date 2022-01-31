@@ -76,8 +76,7 @@
     "type": "Microsoft.Resources/deploymentScripts",
     "comments": "adding a delay to allow for the role assignement to propagate through AAD",
     "dependsOn": [ 
-        "[variables('hubIdentityName')]",
-        "[parameters('roleNameGuid')]"
+        "[variables('hubIdentityName')]"
         ],
     "apiVersion": "2020-10-01",
     "name": "managed-identity-role-delayComplete",
