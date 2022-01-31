@@ -121,7 +121,6 @@
 
             "tags": "[parameters('resourceTags')]",
             "dependsOn": [
-                "[resourceID('Microsoft.ManagedIdentity/userAssignedIdentities/',variables('hubIdentityName'))]",
                 "managed-identity-role-delayComplete"
             ]
         }
