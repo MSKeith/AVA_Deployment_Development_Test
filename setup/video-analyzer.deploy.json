@@ -213,7 +213,7 @@
                 "[concat(variables('accountName'),'/',variables('edgeModuleName'))]"
                 ],
             "apiVersion": "2020-10-01",
-            "name": "Video analyzer edge module creation",
+            "name": "Video_analyzer_edge_module_creation",
             "location": "[resourceGroup().location]",
             "kind": "AzurePowerShell",
             "properties": {
